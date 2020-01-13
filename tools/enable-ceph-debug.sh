@@ -1,4 +1,5 @@
-#/bin/sh +x
+#!/bin/bash
+set +x
 
 echo 9 > /proc/sysrq-trigger
 

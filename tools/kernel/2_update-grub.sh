@@ -1,5 +1,5 @@
-#!/bin/sh +x
-
+#!/bin/bash
+set +x
 set -e
 
 grub2-mkconfig -o /boot/grub2/grub.cfg

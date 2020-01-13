@@ -1,5 +1,5 @@
-#!/bin/sh +x
-
+#!/bin/bash
+set +x
 set -e
 
 cd /root/linux-4.19.52

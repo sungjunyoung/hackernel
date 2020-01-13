@@ -11,9 +11,9 @@
 [host]$ vagrant ssh
 [vagrant]$ sudo -i
 [vagrant]$ sh /vagrant/setup.sh
-[vagrant]$ sh ~/tools/kernel/1_build-install-kernel.sh # kernel build
-[vagrant]$ sh ~/tools/kernel/2_update-grub.sh # grub update
-[vagrant]$ sh ~/tools/kernel/3_copy-config.sh # kernel configuration copy
+[vagrant]$ ~/tools/kernel/1_build-install-kernel.sh # kernel build
+[vagrant]$ ~/tools/kernel/2_update-grub.sh # grub update
+[vagrant]$ ~/tools/kernel/3_copy-config.sh # kernel configuration copy
 [vagrant]$ reboot
 # ...
 [host]$ vagrant ssh

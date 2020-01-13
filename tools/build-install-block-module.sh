@@ -1,4 +1,5 @@
-#!/bin/sh +x
+#!/bin/bash
+set +x
 
 cd /root/linux-4.19.52
 make -C . M=drivers/block -j $(nproc)
