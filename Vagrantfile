@@ -27,6 +27,11 @@ Vagrant.configure("2") do |config|
     tar xvf linux-4.19.52.tar
     cd linux-4.19.52
     make ARCH=x86 cscope tags # create ctags / cscope
+
+    # install ceph-common (luminous)
+    rpm --import 'https://download.ceph.com/keys/release.asc'
+    rpm -Uvh http://download.ceph.com/rpm-luminous/el7/noarch/ceph-release-1-1.el7.noarch.rpm
+    yum install -y ceph-common
   SHELL
 
 end
