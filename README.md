@@ -24,15 +24,13 @@
 ## Scripts
 > 스크립트는 `/root/tools/` 디렉토리에 있습니다.
 
-- **install-ceph-common.sh**
-  - ceph-common 패키지 인스톨
 - **build-install-block-module.sh**
   - `/drivers/block` 모듈만 빌드 후 인스톨
   - block 아래의 코드만 수정한 후 적용해볼 수 있습니다.
-- **enable-ceph-debug.sh**
-  - ceph 커널 디버그 모드 활성화
 - **disable-ceph-debug.sh**
   - ceph 커널 디버그 모드 비활성화
+- **enable-ceph-debug.sh**
+  - ceph 커널 디버그 모드 활성화
 - **map-rbd.sh**
   - rbd map 수행
   - `/root/secrets/rbd-params` 파일에 `rbd map` 파라미터를 넣어주어야 합니다.
