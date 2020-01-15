@@ -23,7 +23,7 @@
 ```
 
 ## Scripts
-> 스크립트는 `/root/tools/` 디렉토리에 있습니다.
+> 스크립트는 `sh /vargrant/setup.sh` 이후 `/root/tools/` 디렉토리에 있습니다.
 
 - **build-install-block-module.sh**
   - `/drivers/block` 모듈만 빌드 후 인스톨
