@@ -1,4 +1,5 @@
 # hackernel
+> kernel 4.19.52
 
 ```bash
 [host]$ cd hackernel
@@ -6,7 +7,7 @@
 ```
 
 ## Kernel Upgrade
-> .bashrc 및 .vimrc / tools 스크립트 가져오기, 커널 업그레이드
+> 커널 업그레이드
 ```bash
 [host]$ vagrant ssh
 [vagrant]$ sudo -i
